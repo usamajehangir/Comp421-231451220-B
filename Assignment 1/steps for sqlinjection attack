@@ -1,0 +1,10 @@
+First of all, we launched the website www.vulnweb.com
+Next, we launched the terminal on kali linux
+then, we navigated to the website http://testphp.vulnweb.com/listproducts.php?cat=1.
+this link was used for the sql injection attack. 
+on the terminal, we used the command, sqlmap -u “http://testphp.vulnweb.com/listproducts.php?cat=1” --dbs
+we knew the database used was MySQL, we dumped the data too. 
+The data is saved in a file as log and session in the assignment.
+
+Usama Jehangir
+231451220
